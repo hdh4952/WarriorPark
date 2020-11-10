@@ -1,0 +1,56 @@
+#screen {
+    display: flex; 
+    justify-content: space-between;
+}
+
+#playerImage {
+    height: 50vh;
+    width: 20vw;
+    display: block;
+}
+
+#monsterImage {
+    height: 50vh;
+    width: 20vw;
+    display: block;
+}
+
+#footer { 
+    display: block;
+    border: 1px solid black;
+    position: fixed; 
+    bottom: 5vh; 
+    width: auto; 
+    color: black;
+}
+
+#Level {
+    font-size: 75px;
+    display: block;
+    position: fixed;
+    bottom: 5vh;
+    right: 1vw;
+    width: auto;
+}
+
+.btn {
+    width:100px;
+    background-color: skyblue;
+    border: none;
+    color:black;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.skill {
+    background-color: orangered;
+}
+
+.intro {
+    background-color: yellow;
+}

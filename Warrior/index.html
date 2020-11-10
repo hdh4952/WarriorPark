@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Warrior</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="screen"> <!--사진 및 hp 표시-->
+        <div class="player"> <!--플레이어창-->
+            <img id="playerImage" src="Park.jpg" alt="박태준">
+            <div id="playerHP">HP: ■■■■■■■■■■</div>
+        </div>
+        <div id="effect">
+        </div>
+        <div class="monster"> <!--몬스터창-->
+            <img id="monsterImage" src="" alt="몬스터" onclick="ClickMonster()">
+            <div id="monsterHP"></div>
+        </div>
+    </div>
+    <div id="notice"> <!--알림창-->
+    </div>
+
+    <div id="footer">
+        <button class="btn intro"><a href="intro.html" target="_blank" style="color: black; background-color: yellow;">인트로 보기</a></button>
+        <button class="btn" onclick="spawn(1)">정성훈</button>
+        <button class="btn" onclick="spawn(2)">김동균</button>
+        <button class="btn" onclick="spawn(3)">마왕 김건한</button>
+        <button class="btn" onclick="spawn(4)">용사 임성택</button>
+        <button class="btn skill" onclick="ParkOrder()">피바람</button>
+        <button class="btn skill" onclick="ParkOrder2()">질풍참</button>
+    </div>
+    <div id="Level">
+        Lv. 1 (0/100)
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
